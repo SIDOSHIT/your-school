@@ -1,0 +1,88 @@
+.promo_wrapper .promo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo_content {
+    display: grid;
+    margin-left: 15%;
+    margin-top: 3%;
+    grid-template-columns: repeat(1, 80%);
+    grid-template-rows: 5% 48% 23% 10%;
+}
+
+.promo_span span {
+    font-family: 'Roboto Slap';
+    color: var(--green_color);
+    font-size: 18px;
+}
+
+.promo_h1 {
+    color: var(--black_color);
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.promo_p {
+    color: var(--black_color);
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.promo_btn {
+    display: flex;
+}
+
+.promo_btn_now {
+    font-family: Roboto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 25%;
+    padding: 20px;
+    background-color: var(--green_color);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--green_color);
+    color: white;
+}
+
+.promo_btn_now:hover {
+    transition: 0.3s all;
+    box-shadow: 0px 5px 20px black;
+    cursor: pointer
+}
+
+.promo_btn_more {
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 25%;
+    padding: 20px;
+    color: var(--bg_green);
+    background-color: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--green_color);
+}
+
+.promo_btn_more:hover {
+    transition: 0.3s all;
+    box-shadow: 0px 5px 20px black;
+    cursor: pointer;
+}
+
+.promo_img {
+    display: flex;
+    background-image: url('../img/schoolgirl.png');
+    height: 450px;
+    background-size: contain;
+    width: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+}

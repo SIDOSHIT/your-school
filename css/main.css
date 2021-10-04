@@ -1,0 +1,7 @@
+.blocks_img1 {
+    background-image: url('../img/school.png');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
